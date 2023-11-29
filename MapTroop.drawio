@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T04:37:42.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3ljHdKXtw8XwphQYI6vz" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T04:43:57.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xf_yfoZJMzvWDm6j6Wlk" version="22.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1456" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2183" dy="1177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -37,10 +37,10 @@
         <mxCell id="vtyjgrVnTe7GE00nzrDD-25" value="IBattleRemainSoldiersHandler" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="770" y="330" width="260" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="vtyjgrVnTe7GE00nzrDD-26" value="void AddBattleRemainSoldiersInfo(int objectId, Dictionary&lt;long, BattleRemainSoldiers&gt; infos)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-25">
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-26" value="void AddBattleRemainSoldiersInfo(int objectId, Dictionary infos)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-25">
           <mxGeometry y="26" width="260" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="vtyjgrVnTe7GE00nzrDD-27" value="Dictionary&lt;long, BattleRemainSoldiers&gt; GetBattleRemainSoldiers(long objectId);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-25">
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-27" value="Dictionary GetBattleRemainSoldiers(long objectId);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-25">
           <mxGeometry y="60" width="260" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vtyjgrVnTe7GE00nzrDD-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vtyjgrVnTe7GE00nzrDD-22" target="vtyjgrVnTe7GE00nzrDD-10">
@@ -52,6 +52,48 @@
         <mxCell id="vtyjgrVnTe7GE00nzrDD-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vtyjgrVnTe7GE00nzrDD-25" target="vtyjgrVnTe7GE00nzrDD-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="645" y="340" as="sourcePoint" />
+            <mxPoint x="424" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-30" value="IBattleSoundHandler" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;flipH=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1070" y="330" width="430" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-31" value="void AddBattleSoundByBattleHit(ArmyData armyData,MapObjectInfoEntity infoEntity);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-30">
+          <mxGeometry y="26" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-39" value="void RemoveBattleSoundByBattleHit(ArmyData armyData, MapObjectInfoEntity infoEntity);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-30">
+          <mxGeometry y="56" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-43" value="void RefreshBattleSoundHitPos();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-30">
+          <mxGeometry y="96" width="430" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-42" value="void AddBattleStopSound(GameObject go, Action&lt;AudioHandler&gt; callback);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-30">
+          <mxGeometry y="121" width="430" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-41" value="void AddBattleMoveSound(GameObject go, Action&lt;AudioHandler&gt; callback);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-30">
+          <mxGeometry y="146" width="430" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-40" value="void AddBattleFailSound(GameObject go, Action&lt;AudioHandler&gt; callback);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-30">
+          <mxGeometry y="171" width="430" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-45" value="void RemoveSound(AudioHandler ah,bool onlyAudioComp = false);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-30">
+          <mxGeometry y="196" width="430" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-44" value="void DestroySound(AudioHandler ah,Action callback);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-30">
+          <mxGeometry y="221" width="430" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-47" value="void PlaySound(AudioHandler ah);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-30">
+          <mxGeometry y="246" width="430" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-46" value="void StopSound(AudioHandler ah);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-30">
+          <mxGeometry y="271" width="430" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-32" value="void Update();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vtyjgrVnTe7GE00nzrDD-30">
+          <mxGeometry y="296" width="430" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vtyjgrVnTe7GE00nzrDD-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vtyjgrVnTe7GE00nzrDD-30" target="vtyjgrVnTe7GE00nzrDD-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="340" as="sourcePoint" />
             <mxPoint x="424" y="238" as="targetPoint" />
           </mxGeometry>
         </mxCell>
